@@ -16,7 +16,7 @@
       "jest-junit",
       {
         "outputDirectory": "./test-results",
-        "outputName": "clientside-componenttest-results.xml"
+        "outputName": "componenttest-results.xml"
       }
     ]
   ]
