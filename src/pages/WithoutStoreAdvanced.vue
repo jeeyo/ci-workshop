@@ -9,7 +9,7 @@ export default {
   },
   async mounted() {
     this.is_loading = true
-    const response = await fetch('/initialState.txt')
+    const response = await fetch('initialState.txt')
     const data = await response.json() as { counter: number }
     this.count = data.counter
     this.is_loading = false
