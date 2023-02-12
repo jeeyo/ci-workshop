@@ -14,7 +14,7 @@ export default {
 
   <div class="card">
     <h3 data-testid="count-result">count is {{ store.count }}</h3>
-    <button type="button" @click="store.increaseBy(1)">Increase by 1</button>
+    <button type="button" @click="store.increaseBy(2)">Increase by 1</button>
     <button type="button" @click="store.decreaseBy(1)" :disabled="store.count <= 0">Decrease by 1</button>
   </div>
 </template>
