@@ -14,7 +14,7 @@ const useCounterStore = defineStore({
     decreaseBy(amount: number) {
 
       // no negative numbers
-      if (this.count === 0) {
+      if (this.count === 1) {
         return
       }
 
